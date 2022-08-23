@@ -1,0 +1,14 @@
+Algoritmo Promedio
+	Escribir 'Cómo te llamas'
+	Leer nom
+	Escribir 'Ingresa el numero de notas a calcular'
+	Leer n
+	acum <- 0
+	Para i<-1 Hasta n Hacer
+		Escribir 'ingresa el dato ',i,':'
+		Leer dato
+		acum <- acum+dato
+	FinPara
+	prom <- acum/n
+	Escribir 'El promedio de ',nom,'es de: ',prom
+FinAlgoritmo
